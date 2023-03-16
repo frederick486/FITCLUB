@@ -37,7 +37,6 @@ const Testimonials = () => {
                         selected === 0
                         ? setSelected(tLength - 1)
                         : setSelected((prev) => prev - 1)
-                        console.log("selected (left button)", selected)
                     }}                    
                     src={leftArrow} 
                     alt="" 
@@ -48,7 +47,6 @@ const Testimonials = () => {
                         selected === tLength - 1
                         ? setSelected(0)
                         : setSelected((prev) => prev + 1)
-                        console.log("selected (right button)", selected)
                     }}
                     alt="" 
                 />
