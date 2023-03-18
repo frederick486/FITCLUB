@@ -12,7 +12,6 @@ const Header = () => {
   return (
     <div className='header'>
       <img src={Logo} alt="" className='logo' />
-      <span>TEST</span>
       {(menuOpened === false && mobile === true) 
       ? (<div
             style={{
